@@ -1,5 +1,5 @@
 package com.ishmeetsingh.assignment3.services;
-
+// Service enhancement: Added reasoning behind delayed reminder for demonstrating background execution.
 import android.app.Service;
 import android.content.Intent;
 import android.os.Handler;
