@@ -1,3 +1,4 @@
+// Added main screen logic note: Refreshing list when returning from EditNoteActivity.
 package com.ishmeetsingh.assignment3;
 
 import android.content.Intent;
