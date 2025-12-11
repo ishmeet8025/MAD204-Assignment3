@@ -1,5 +1,5 @@
 package com.ishmeetsingh.assignment3.utils;
-
+// PR 3 Note: Added explanation for SharedPreferences usage for username and theme.
 import android.content.Context;
 import android.content.SharedPreferences;
 
