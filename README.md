@@ -39,3 +39,4 @@ This Android app allows users to create, edit, delete, and manage notes with opt
 - `Room DB` – Note entity, DAO, database  
 - `Utils` – JSON, files, preferences, notifications  
 - `ReminderService` – Delayed notification  
+PR 4 Note: Added JSON import/export and reminder service documentation.
