@@ -1,3 +1,4 @@
+// Added ViewHolder explanation to clarify binding flow for RecyclerView notes.
 package com.ishmeetsingh.assignment3.adapters;
 
 import android.content.Context;
