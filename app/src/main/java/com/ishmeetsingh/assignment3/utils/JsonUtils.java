@@ -1,5 +1,5 @@
 package com.ishmeetsingh.assignment3.utils;
-
+// Added explanation: JSON export keeps timestamps and favorites for full note backup accuracy.
 import com.ishmeetsingh.assignment3.models.Note;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
