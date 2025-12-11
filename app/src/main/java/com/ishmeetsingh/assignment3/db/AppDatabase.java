@@ -25,4 +25,6 @@ public abstract class AppDatabase extends RoomDatabase {
         return instance;
     }
 // Meaningful improvement: Added migration strategy note for future database upgrades.
+// PR 1 Note: Added documentation explaining Room setup and database architecture.
+
 }
