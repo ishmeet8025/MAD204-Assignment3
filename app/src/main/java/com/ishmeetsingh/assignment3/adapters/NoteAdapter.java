@@ -1,4 +1,5 @@
 // Added ViewHolder explanation to clarify binding flow for RecyclerView notes.
+// PR 2 Note: RecyclerView adapter optimized for note binding and view recycling.
 package com.ishmeetsingh.assignment3.adapters;
 
 import android.content.Context;
