@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/noteMediaPreview"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/noteTitle"
+            android:layout_toRightOf="@id/noteMediaPreview"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"/>
+
+        <TextView
+            android:id="@+id/noteContent"
+            android:layout_below="@id/noteTitle"
+            android:layout_toRightOf="@id/noteMediaPreview"
+            android:layout_marginLeft="10dp"
+            android:maxLines="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Content"/>
+
+        <ImageView
+            android:id="@+id/noteFavoriteIcon"
+            android:layout_alignParentRight="true"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_favorite_border"/>
+
+        <ImageView
+            android:id="@+id/noteDeleteIcon"
+            android:layout_below="@id/noteFavoriteIcon"
+            android:layout_alignParentRight="true"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:src="@android:drawable/ic_menu_delete" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
